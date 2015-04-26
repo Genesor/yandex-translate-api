@@ -1,0 +1,26 @@
+{
+  "name": "yandex-translate-api",
+  "version": "1.0.0",
+  "description": "Node module allowing to use the Yandex Translate API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Genesor/yandex-translate-api.git"
+  },
+  "keywords": [
+    "translate",
+    "yandex"
+  ],
+  "author": "Benjamin De Bernardi <debernardi.benjamin@gmail.com> (http://sadoma.so/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Genesor/yandex-translate-api/issues"
+  },
+  "homepage": "https://github.com/Genesor/yandex-translate-api",
+  "dependencies": {
+    "request": "~2.16.6"
+  }
+}
