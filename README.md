@@ -4,6 +4,13 @@
 
 Please use [API key request form](https://tech.yandex.com/keys/get/?service=trnsl) to obtain key.
 
+## Install
+
+```
+npm install yandex-translate-api --save
+```
+
+## Use the client
 ```js
 var translate = require('yandex-translate')(YOUR_API_KEY);
 translate('I like fresh baked bread', { to: 'ru'}, function(err, res) {
