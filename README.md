@@ -13,6 +13,7 @@ npm install yandex-translate-api --save
 ## Use the client
 ```js
 var translator = require('yandex-translate-api')(YOUR_API_KEY);
+
 translator.translate('I like fresh baked bread', { to: 'ru'}, function(err, res) {
   console.log(res.text);
 });
